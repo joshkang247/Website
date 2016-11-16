@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Stellar by HTML5 UP</title>
+		<title>Josh Kang</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -22,18 +22,17 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/logo.svg" alt="" /></span>
-						<h1>Stellar</h1>
-						<p>Just another free, fully responsive site template<br />
-						built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<h1>Josh Kang</h1>
+						<p>My Personal Webpage<br />
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="#intro" class="active">About Me</a></li>
+							<li><a href="#first">My Projects</a></li>
+							<li><a href="#second">Research</a></li>
+							<li><a href="#footer">Contact Me</a></li>
 						</ul>
 					</nav>
 
@@ -45,87 +44,119 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Ipsum sed adipiscing</h2>
+											<h2>Introduction</h2>
 										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+										<p>Welcome to my online portfolio! My name is Josh and I am an aspiring software engineer. I'm currently in
+											my second year at the University of Toronto, majoring in Engineering Science. I am an active individual in the 
+											programming community, often taking upon challenges like hackathons. In addition, I spend a lot of time working on 
+											my own projects as well. I am also involved with school design teams such as the University of Toronto's Aerospace 
+											Team. I have a strong passion for artificial intelligence and machine learning and I hope to pursue it in graduate 
+											level studies. </p>
 										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
+											<!--li><a href="generic.html" class="button">Learn More</a></li-->
 										</ul>
 									</div>
-									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+									<span class="image"><img src="images/self.jpg" alt="" /></span>
 								</div>
 							</section>
 
 						<!-- First Section -->
 							<section id="first" class="main special">
 								<header class="major">
-									<h2>Magna veroeros</h2>
+									<h2>My Projects</h2>
 								</header>
+								<h3>Arcade Games</h3>
 								<ul class="features">
 									<li>
-										<span class="icon major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<!--span class="icon major style1 fa-code"> </span-->
+										<span class="image"><img src="images/tetris.png" alt="" /></span>
+										<h4>Tetris</h4>
 									</li>
 									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<span class="image"><img src="images/snake.png" alt="" /></span>
+										<h4>Snake</h4>
 									</li>
 									<li>
-										<span class="icon major style5 fa-diamond"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<span class="image"><img src="images/pong.png" alt="" /></span>
+										<h4>Pong</h4>
 									</li>
 								</ul>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+
+								<div class="content">
+									<p>I find the funnest projects will always be in making games. Using python and the pygame module, I have 
+										been able to develop these three interactive games. Not only that, but they are great for learning how 
+										to program. Especially in strategy-type games, it will require thinking of algorithms for computers as
+										well as the overall game logic. It is also very easy how your code is running because many things are 
+										displayed for you. To view all of my projects, be sure to check out my github link at the bottom of the 
+										page.</p>
+								</div>
+
+								<h3>C</h3>
+								<div class="content">
+									<p>The great advantage in programming with C is getting a thorough understanding of pointers, memory management, 
+										and data structures.</p>
+									<strong>Cholesky Decomposition</strong>
+									<p>Cholesky Decomposition is a recusive algorithm used to factor a square matrix. Without going into the details of the
+										math behind it, this is a powerful tool capable of finding the inverse and determinants of large square matrices. This 
+										project enhanced not only my algorithm background, but required a solid background of pointers and pointer arithmetic.</p>
+									<strong>Router Queue Simulator</strong>
+									<p>Queues are useful data structures that can simulate real world events following "First in First Out" policy. 
+										This project implements the queue data structure in simulating how routers work. A router is capable of servicing 
+										one data packet at a time. However, there are times when packets are arriving at a rate faster than the router can 
+										serve. This is when the packets are stored within a queue. The most important output of this simulation is the average 
+										wait time for a packet given parameters such as arrival rates and service rates.</p>
+									<strong>Flow Networks</strong>
+									<p>For example, treat a flow network as a system of pipes, where at some points, the pipes will converge and at others, the pipes
+										will diverge. Also, each pipe has its own physical limitations, such as the maximum amount of flow that can go through it. 
+										What we want to know about this network is the path that will result in the maximum flow. In this project, I have utilized the 
+										graph data structure to represent the system and implemented the Ford-Fulkerson algorithm to compute the maximum flow path. </p>
+								</div>
+
+								<h3>Verilog</h3>
+								<div class="content">
+									<p>Other than programming languages, I also have experience with Verilog, which is a hardware description language used to model 
+										electronic systems. Using Altera DE1-SoC board and the Quartus Prime software, I have developed projects utilizing registers, counters, finite-state machines, etc. My favourite is simulating morse code using a finite-state-machine. The user enters a letter using the slide switches. After a key is pressed, the LED on the board will blink quickly for a dot and longer for a dash output. 
 							</section>
 
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Research</h2>
+									<p>Recreating Great Discoveries in Physics and Engineering<br />
+									National University of Singapore</p>
 								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon fa-code-fork"></span>
-										<strong>5,120</strong> Etiam
+
+								<ul class="features">
+									<li>
+										<!--span class="icon major style1 fa-code"> </span-->
+										<span class="image"><img src="images/pump.jpg" alt="" /></span>
+										<h4>Water Pump</h4>
 									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open-o"></span>
-										<strong>8,192</strong> Magna
+									<li>
+										<span class="image"><img src="images/coil.jpg" alt="" /></span>
+										<h4>Induction Coil</h4>
 									</li>
-									<li class="style3">
-										<span class="icon fa-signal"></span>
-										<strong>2,048</strong> Tempus
-									</li>
-									<li class="style4">
-										<span class="icon fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-diamond"></span>
-										<strong>1,024</strong> Nullam
+									<li>
+										<span class="image"><img src="images/engine.jpg" alt="" /></span>
+										<h4>Marble Sterling Engine</h4>
 									</li>
 								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+
+								<div class="content">
+								<p>In the summer of 2016, I had the opportunity to assist in research at the National University of Singapore. A fellow student 
+									and I worked under Dr. Anjam Kursheed, who is a professor in the department of Electrical and Computer Engineering. Under our 
+									research project title, "Recreating Great Discoveries in Physics and Engineering", we were responsible to designing and manufacturing famous inventions of the past. The three main projects completed were an ancient greek water pump, an induction 
+									coil, and a sterling engine demo. The kind of work that we did was really less research, and more engineering based. The overall goal of this research project was to design educational experiments for students to learn scientific concepts from. As well, it has helped Dr. Kursheed in writing a textbook used for educators. Because this was meant for experimental purposed, we had to keep our designs as simple as possible, while still showing the concepts and science behind it. In addition, all of our materials used were commerical level and easily accessible at most hardware stores, making it more feasible for large classes to perform. Below, I have also linked a more detailed report in pdf format.</p>
+								</div>
 								<footer class="major">
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="generic_files\report.pdf" target="_blank" class="button">Download Projects Report</a></li>
 									</ul>
 								</footer>
 							</section>
 
 						<!-- Get Started -->
-							<section id="cta" class="main special">
+<!-- 							<section id="cta" class="main special">
 								<header class="major">
 									<h2>Congue imperdiet</h2>
 									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
@@ -137,38 +168,31 @@
 										<li><a href="generic.html" class="button">Learn More</a></li>
 									</ul>
 								</footer>
-							</section>
+							</section> -->
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
+							<h2>Contact Me</h2>
+							<p>I am always looking for new opportunities. Feel free to contact me via email, and be sure to checkout my LinkedIn and 
+								GitHub profiles.</p>
+
 						</section>
 						<section>
-							<h2>Etiam feugiat</h2>
+							<h2>Josh Kang</h2>
 							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
 								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
+								<dd>(+1) 647-761-6283</dd>
 								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
+								<dd>joshk.kang@mail.utoronto.ca</a></dd>
 							</dl>
 							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+								<li><a href="https:www.linkedin.com/in/josh-kang" target="_blank" class="icon fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/joshkang247" target="_blank" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
 							</ul>
 						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
