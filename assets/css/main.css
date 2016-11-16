@@ -1705,9 +1705,10 @@
 		margin: 0 0 2em 0;
 	}
 
-	.content {
+	.content p{
 		text-align: left;
 	}
+	
 
 		p.content {
 			-moz-columns: 20em 2;
@@ -3102,6 +3103,10 @@
 					flex: 0 1 auto;
 					margin-left: 0;
 					margin-bottom: 2em;
+				}
+
+				.spotlight #main h2 {
+					text-align:left;
 				}
 
 		}
